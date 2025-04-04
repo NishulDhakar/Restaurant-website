@@ -11,6 +11,7 @@ import {
 } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import hero1 from '../../assets/images/hero1.jpg';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -23,8 +24,7 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80',
-      alt: 'Restaurant interior at night',
+      image: hero1,
       title: 'Where Night Owls Dine',
       subtitle: 'Artisanal cuisine served until the early hours',
       highlight: 'Open until 2AM',

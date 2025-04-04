@@ -314,7 +314,7 @@ const User = ({ onClose, darkMode }) => {
             onClick={() => setIsRegistering(true)}
           >
             <FaUserPlus className="auth-icon" />
-            New to Cosmic Bites? Join us
+            New to our restraurent? Join us
           </button>
         </form>
       )}

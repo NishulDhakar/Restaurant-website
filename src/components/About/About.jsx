@@ -11,6 +11,7 @@ import 'swiper/css/pagination';
 import rajuImg from '../../assets/images/Raju.jpg';
 import bhaghaImg from '../../assets/images/Bhagha.jpg';
 import sanjuImg from '../../assets/images/sanju.jpg';
+import aboutImg from '../../assets/images/aboutImg.jpg';
 
 const About = () => {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
@@ -120,26 +121,27 @@ const About = () => {
           </div>
           
           <div className="about-image" data-aos="fade-left">
-            <div className="image-frame" onClick={toggleVideo}>
+            {/* <div className="image-frame" onClick={toggleVideo}> */}
+            <div className="image-frame">
               {isVideoPlaying ? (
                 <div className="video-wrapper">
-                  <video autoPlay loop muted playsInline>
+                  {/* <video autoPlay loop muted playsInline>
                     <source src="/videos/restaurant-atmosphere.mp4" type="video/mp4" />
-                  </video>
-                  <button className="video-control" aria-label="Pause video">
+                  </video> */}
+                  {/* <button className="video-control" aria-label="Pause video">
                     <FaPause />
-                  </button>
+                  </button> */}
                 </div>
               ) : (
                 <>
                   <img 
-                    src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" 
+                    src= {aboutImg}
                     alt="Our Restaurant at night" 
                     loading="lazy" 
                   />
-                  <button className="video-control" aria-label="Play video">
+                  {/* <button className="video-control" aria-label="Play video">
                     <FaPlay />
-                  </button>
+                  </button> */}
                 </>
               )}
               <div className="image-overlay"></div>

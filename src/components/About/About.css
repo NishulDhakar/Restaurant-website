@@ -48,9 +48,9 @@
 .title-decorator {
   position: relative;
   display: inline-block;
-}
+} 
 
-.title-decorator::after {
+/* .title-decorator::after {
   content: '';
   position: absolute;
   bottom: -10px;
@@ -58,7 +58,7 @@
   width: 60%;
   height: 3px;
   background: linear-gradient(90deg, #d4af37, transparent);
-}
+} */
 
 .about-text p {
   color: rgba(255, 255, 255, 0.8);
@@ -593,7 +593,7 @@
 }
 
 /* Animation */
-@keyframes float {
+/* @keyframes float {
   0%, 100% {
     transform: translateY(0);
   }
@@ -604,7 +604,7 @@
 
 .image-frame {
   animation: float 8s ease-in-out infinite;
-}
+} */
 
 /* Responsive */
 @media (max-width: 992px) {

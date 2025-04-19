@@ -1,145 +1,77 @@
-# 🌑 MIDNIGHT RESTAURANT 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-18-61DAFB.svg?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-4.3-646CFF.svg?style=for-the-badge&logo=vite)](https://vitejs.dev/)
-[![Netlify](https://img.shields.io/badge/Netlify-Live-00C7B7.svg?style=for-the-badge&logo=netlify)](https://midnight-cafe.netlify.app/)
+# 🍴 Restaurant Website  
 
+> A fully responsive and modern restaurant website built using React18.
 
-## 🌌 Overview
+This project is a sleek and responsive website designed to provide a seamless digital presence for restaurants. It adapts beautifully to all devices and serves as an elegant showcase for menus, reservations, and more.
 
-Midnight Café is an elegant restaurant website featuring a sophisticated nocturnal theme. The site combines modern web technologies with an immersive user experience to create a digital representation of a high-end dining establishment.
+---
 
-## ✨ Key Features
+## 🚀 Features  
 
-<div align="center">
-  
-| Feature | Description |
-|---------|-------------|
-| **🌙 Nocturnal UI** | Sophisticated dark theme with dynamic golden accents |
-| **🍷 Interactive Sommelier** | AI-powered drink pairing suggestions |
-| **📅 Moon Phase Reservations** | Book tables aligned with lunar cycles |
-| **🖼️ Immersive Gallery** | Visual storytelling through elegant photography |
-| **🍽️ Dynamic Menu** | Interactive food and beverage presentation |
+- Responsive design for all devices  
+- Interactive and user-friendly UI  
+- Stylish menu display for dishes and pricing  
+- Online reservation/contact form  
+- Clean and modern design aesthetics  
 
-</div>
+---
 
-## 🚀 Live Demo
+## 🛠 Tech Stack  
 
-Experience the Midnight restaurant at our [live site](https://restaurant-web-layout.netlify.app/).
+**Frontend**  
+- React18  
+- CSS  
+- JavaScript  
 
-## 🛠️ Tech Stack
+**Design**  
+- Fully responsive layouts with CSS  
 
-<div align="center">
+---
 
-| Layer | Technology | Purpose |
-|-------|------------|---------|
-| **🌐 Frontend** | React 18 + Vite | Blazing fast UI foundation |
-| **🎨 Styling** | CSS Modules + Variables | Consistent nocturnal aesthetic |
-| **✨ Animations** | Framer Motion | Buttery smooth transitions |
-| **🖼️ Media** | Lightgallery.js | Immersive visual storytelling |
-| **📅 Booking** | React Flatpickr | Intuitive time selection |
-| **🚀 Deployment** | Netlify | Instant global availability |
+## 🌐 Live Demo  
 
-</div>
+🔗 [restaurant-website.vercel.app](https://restaurant-web-layout.netlify.app/)  
 
-## 🧙‍♂️ Quick Start
+---
 
-```bash
-# Clone the repository
-git clone https://github.com/NishulDhakar/Restaurant-website.git
+## 💡 Why This Project?  
 
-# Navigate to project directory
-cd Restaurant-website
+> A restaurant's website should be as enticing as its food.
 
-# Install dependencies
-npm install
+This project delivers:
+- **Responsiveness** – Optimized for all screen sizes  
+- **Elegance** – A clean and modern look  
+- **Functionality** – Easy-to-use and intuitive interface  
 
-# Start development server
-npm run dev
-```
+---
 
-> 💡 **Pro Tip:** Add `--host` to share your local preview across devices!
+## 🙌 Contributions  
 
-## 🏰 Project Structure
+Have ideas or suggestions?  
+Feel free to:
+- Fork the repo  
+- Open an issue  
+- Submit a pull request  
 
-```
-├── public/
-├── src/
-│   ├── assets/
-│   │   └── images/
-│   ├── components/
-│   │   ├── About/
-│   │   ├── App/
-│   │   ├── Events/
-│   │   ├── Footer/
-│   │   ├── Gallery/
-│   │   ├── Header/
-│   │   ├── Hero/
-│   │   ├── Loader/
-│   │   ├── Menu/
-│   │   ├── Reservation/
-│   │   ├── Specials/
-│   │   ├── Testimonials/
-│   │   └── CartSidebar/
-│   ├── hooks/
-│   ├── styles/
-│   ├── App.css
-│   ├── App.jsx
-│   └── index.jsx
-```
+> Contributions are always welcome!  
 
-## 🎨 Theme Customization
+---
 
-```css
-/* src/styles/variables.css */
-:root {
-  --midnight: #121212;      /* The witching hour */
-  --void: #0a0a0a;         /* Absolute darkness */
-  --moonlight: #D4AF37;    /* Liquid gold */
-  --transition: 0.4s ease; /* The pace of night */
-}
-```
-
-> 🎭 **Theme Ideas:** Try `--moonlight: #C19A6B` for rose gold or `--midnight: #1A1A2E` for navy elegance
-
-## 📱 Responsive Design
-
-The Midnight Café experience adapts seamlessly to:
-- 📱 **Mobile** (Vertical tasting menu)
-- 💻 **Tablet** (Two-column presentation)
-- 🖥️ **Desktop** (Full culinary theater)
-
-## 🤝 Contributing
-
-We welcome contributors like moonlight welcomes stars:
-
-1. 🍴 Fork the repository
-2. 👨‍🍳 Create your feature branch (`git checkout -b feature/amazing-addition`)
-3. 🧂 Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. 📸 Push to the branch (`git push origin feature/amazing-addition`)
-5. 🚀 Open a Pull Request
-
-## 📜 License
-
-This project is served under the [MIT License](LICENSE) - because great code, like fine wine, should be shared.
-
-## 🌠 Contact
+## 🌠 Contact  
 
 <p align="center">
   <a href="https://twitter.com/Nishuldhakar">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white">
   </a>
- <a href="https://www.linkedin.com/in/nishuldhakar">
+  
+  <a href="https://www.linkedin.com/in/nishuldhakar">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-  <a href="https://github.com/nishuldhakar">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
   </a>
 </p>
 
 <p align="center">
   <img src="https://media.giphy.com/media/xUA7bdpLxQhsSQdyog/giphy.gif" width="200">
   <br>
-  <em>Until we meet under the moonlight...</em> 👨‍🍳✨
+  <em>Designing digital dining experiences...</em> 🍽️💻✨
 </p>
